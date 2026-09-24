@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/plugin.schema.json",
+  "id": "blueberrymaid/dsh-midtalk",
+  "name": "dsh-midtalk",
+  "repository": "https://github.com/blueberrymaid/dsh-midtalk",
+  "category": "session",
+  "description": {
+    "en": "Adds two mid-turn interjection commands to a running DSH session: /say queues a message to the next step boundary without interrupting the step, and /cut aborts the current step and writes a structured recovery card describing what was in flight.",
+    "zh": "给正在跑的 DSH 会话加两条中途插话命令：/say 把消息无损地插到下一个步骤边界、不打断当前步骤；/cut 中止当前步骤，并写出结构化恢复卡记录当时在做什么。"
+  },
+  "added": "2026-09-25"
+}
